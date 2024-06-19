@@ -1,13 +1,11 @@
 
-#Virtual Machine Management
+###Virtual Machine Management###
 
-#Migrating Existing Virtual Machines
+#Migrating Existing Virtual Machines###
 
-
-#Bare Metal Infrastructure Management notes
+###Bare Metal Infrastructure Management notes###
 
 Make sure before you are in the openshift-machine-api project
-
 
 spec:
   architecture: x86_64
@@ -22,7 +20,7 @@ spec:
     deviceName: /dev/vda
 
 
-#Storage Management notes
+###Storage Management notes###
 
 Make sure vmexamples
 https://www.redhat.com/en/blog/connecting-to-vms-in-red-hat-openshift-virtualization
@@ -37,7 +35,7 @@ Select  All projects to see the operators
 Before restore make sure you set your project to vmexamples
 You will have to flip between projects
 
-#Network Management
+###Network Management###
 Make sure project is set to vmexamples
 For the MultiNetwork Policy you will ssh into the bastion host
 echo "apiVersion: k8s.cni.cncf.io/v1beta1
@@ -67,7 +65,7 @@ spec:
     - ipBlock:
         cidr: <IP_ADDR_FROM_FEDORA02>/32" > allow-host.yaml
 
-#Template and InstanceType Management
+###Template and InstanceType Management###
 Make sure you clean up after the last lab
 userData: |-
   #cloud-config
@@ -80,5 +78,5 @@ userData: |-
     - systemctl enable married
     - systemctl start mariadb
 
-#Working with Virtual Machines and Applications
+###Working with Virtual Machines and Applications###
 if it did not import then use vmimported

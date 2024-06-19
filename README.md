@@ -4,11 +4,11 @@
 The least used Node is chosen by default
 
 # Migrating Existing Virtual Machines
-This takes time. If it does not complete in time we have vmimports namespace
+This takes time. If it does not complete in time we have vmimports project/namespace
 
 # Bare Metal Infrastructure Management notes
 
-  Make sure before you are in the openshift-machine-api project
+  Make sure before you are in the openshift-machine-api project/namespace
   
   ```
   spec:
@@ -27,7 +27,7 @@ This takes time. If it does not complete in time we have vmimports namespace
 
 # Storage Management notes
 
-Make sure vmexamples
+Make sure namespace vmexamples
 
 
 App is line 131
@@ -37,14 +37,14 @@ In clone if you don't have the names correct the backup restore will not work
 
 #Backup and Recovery for Virtual Machines notes
 Select  All projects to see the operators
-Before restore make sure you set your project to vmexamples
-You will have to flip between projects
+Before restoring make sure you set your project/namespace to vmexamples
+You will have to flip between projects/namespace
 
 # Network Management
 Helpful blog
 https://www.redhat.com/en/blog/connecting-to-vms-in-red-hat-openshift-virtualization
 
-Make sure project is set to vmexamples
+Make sure project/namespace is set to vmexamples
 For the MultiNetwork Policy you will ssh into the bastion host
 ```
 echo "apiVersion: k8s.cni.cncf.io/v1beta1
@@ -92,4 +92,4 @@ userData: |-
 
 # Working with Virtual Machines and Applications
 
-if it did not import then use vmimported
+if it did not import then use namespace vmimported

@@ -29,8 +29,6 @@ This takes time. If it does not complete in time we have vmimports namespace
 
 Make sure vmexamples
 
-Helpful blog
-https://www.redhat.com/en/blog/connecting-to-vms-in-red-hat-openshift-virtualization
 
 App is line 131
 Domain is line 162
@@ -43,6 +41,9 @@ Before restore make sure you set your project to vmexamples
 You will have to flip between projects
 
 # Network Management
+Helpful blog
+https://www.redhat.com/en/blog/connecting-to-vms-in-red-hat-openshift-virtualization
+
 Make sure project is set to vmexamples
 For the MultiNetwork Policy you will ssh into the bastion host
 ```

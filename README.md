@@ -1,3 +1,5 @@
+![image](https://github.com/cnduffield/OCPVirtNotes/assets/16171877/ae39eda0-884f-446d-896e-cd6ee32c0b04)
+
 
 # Virtual Machine Management
 The least used Node is chosen by default

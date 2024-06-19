@@ -1,29 +1,30 @@
 
-#Virtual Machine Management
+# Virtual Machine Management
+The least used Node is chosen by default
 
-#Migrating Existing Virtual Machines
+# Migrating Existing Virtual Machines
+This takes time. If it does not complete in time we have vmimports namespace
+
+# Bare Metal Infrastructure Management notes
+
+  Make sure before you are in the openshift-machine-api project
+  
+  ```
+  spec:
+    architecture: x86_64
+    automatedCleaningMode: metadata
+    bmc:
+      address: 'ipmi://192.168.123.1:6237'
+      credentialsName: worker4-bmc-secret
+    bootMACAddress: 'de:ad:be:ef:00:07'
+    bootMode: UEFI
+    online: true
+    rootDeviceHints:
+      deviceName: /dev/vda
+  ```
 
 
-#Bare Metal Infrastructure Management notes
-
-Make sure before you are in the openshift-machine-api project
-
-```
-spec:
-  architecture: x86_64
-  automatedCleaningMode: metadata
-  bmc:
-    address: 'ipmi://192.168.123.1:6237'
-    credentialsName: worker4-bmc-secret
-  bootMACAddress: 'de:ad:be:ef:00:07'
-  bootMode: UEFI
-  online: true
-  rootDeviceHints:
-    deviceName: /dev/vda
-```
-
-
-#Storage Management notes
+# Storage Management notes
 
 Make sure vmexamples
 
@@ -40,7 +41,7 @@ Select  All projects to see the operators
 Before restore make sure you set your project to vmexamples
 You will have to flip between projects
 
-#Network Management
+# Network Management
 Make sure project is set to vmexamples
 For the MultiNetwork Policy you will ssh into the bastion host
 ```
@@ -72,7 +73,7 @@ spec:
     - ipBlock:
         cidr: <IP_ADDR_FROM_FEDORA02>/32" > allow-host.yaml
 ```
-#Template and InstanceType Management
+# Template and InstanceType Management
 Make sure you clean up after the last lab
 ```
 userData: |-
@@ -87,6 +88,6 @@ userData: |-
     - systemctl start mariadb
 ```
 
-#Working with Virtual Machines and Applications
+# Working with Virtual Machines and Applications
 
 if it did not import then use vmimported

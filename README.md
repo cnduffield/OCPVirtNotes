@@ -49,6 +49,7 @@ https://www.redhat.com/en/blog/connecting-to-vms-in-red-hat-openshift-virtualiza
 Your SSH credentials are located in the introduction chapter
 
 Make sure project/namespace is set to vmexamples
+
 For the MultiNetwork Policy you will ssh into the bastion host
 ```
 echo "apiVersion: k8s.cni.cncf.io/v1beta1

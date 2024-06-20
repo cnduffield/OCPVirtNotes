@@ -81,7 +81,9 @@ spec:
         cidr: <IP_ADDR_FROM_FEDORA02>/32" > allow-host.yaml
 ```
 Dont forget to clean up your lab by running:
-```oc delete -f allow-host.yaml -f deny-all.yaml -n vmexamples```
+```
+oc delete -f allow-host.yaml -f deny-all.yaml -n vmexamples
+```
 
 # Template and InstanceType Management
 Make sure you clean up after the last lab

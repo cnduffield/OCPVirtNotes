@@ -99,4 +99,4 @@ userData: |-
 
 # Working with Virtual Machines and Applications
 
-if it did not import then use namespace vmimported
+If it did not import during lab2 then use namespace vmimported.

@@ -35,10 +35,12 @@ Domain is line 162
 
 In clone if you don't have the names correct the backup restore will not work
 
-#Backup and Recovery for Virtual Machines notes
+# Backup and Recovery for Virtual Machines notes
 Select  All projects to see the operators
 Before restoring make sure you set your project/namespace to vmexamples
 You will have to flip between projects/namespace
+Note there is a UI but partially complete
+
 
 # Network Management
 Helpful blog

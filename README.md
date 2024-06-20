@@ -46,6 +46,8 @@ Note there is a UI but partially complete
 Helpful blog
 https://www.redhat.com/en/blog/connecting-to-vms-in-red-hat-openshift-virtualization
 
+Your SSH credentials are located in the introduction chapter
+
 Make sure project/namespace is set to vmexamples
 For the MultiNetwork Policy you will ssh into the bastion host
 ```
@@ -77,6 +79,9 @@ spec:
     - ipBlock:
         cidr: <IP_ADDR_FROM_FEDORA02>/32" > allow-host.yaml
 ```
+Dont forget to clean up your lab by running:
+```oc delete -f allow-host.yaml -f deny-all.yaml -n vmexamples```
+
 # Template and InstanceType Management
 Make sure you clean up after the last lab
 ```

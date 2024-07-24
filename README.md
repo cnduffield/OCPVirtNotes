@@ -3,7 +3,9 @@
 # Helpful links
 https://kubevirt.io/user-guide/architecture/ <br>
 https://kubebyexample.com/ <br>
-https://docs.openshift.com/container-platform/4.16/virt/about_virt/virt-architecture.html
+https://docs.openshift.com/container-platform/4.16/virt/about_virt/virt-architecture.html <br>
+OpenShift Virtualization - Reference Implementation Guide 
+https://access.redhat.com/articles/7067871
 
 
 # Virtual Machine Management

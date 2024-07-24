@@ -13,7 +13,8 @@ To see your projects make sure the slider is blue and right. <br>
 
 
 # Migrating Existing Virtual Machines
-This takes time. If it does not complete in time we have vmimports project/namespace
+This takes time. If it does not complete in time we have vmimports project/namespace <br>
+Having many participants performing the same task in parallel in a simulated lab environment can cause this task to perform much slower than in a real environment. For this lab instance we have limited the number of in-flight VMs to 1 at a time. Please be patient with this process as it completes. You may continue with other sections in the roadshow as the migrations complete.
 
 # Bare Metal Infrastructure Management notes
 

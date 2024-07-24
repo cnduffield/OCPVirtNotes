@@ -7,7 +7,10 @@ https://docs.openshift.com/container-platform/4.16/virt/about_virt/virt-architec
 
 
 # Virtual Machine Management
-The least used Node is chosen by default
+The least used Node is chosen by default. <br>
+To see your projects make sure the slider is blue and right. <br>
+<img width="418" alt="image" src="https://github.com/user-attachments/assets/8ac0801c-b35e-415a-8b63-13313d81a0f1">
+
 
 # Migrating Existing Virtual Machines
 This takes time. If it does not complete in time we have vmimports project/namespace

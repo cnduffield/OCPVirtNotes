@@ -46,6 +46,10 @@ Domain is line 162
 In clone if you don't have the names correct the backup restore will not work
 
 # Backup and Recovery for Virtual Machines notes
+OpenShift Virtualization disaster recovery guide <br>
+https://access.redhat.com/articles/7041594 <br>
+https://www.redhat.com/en/blog/disaster-recovery-of-virtual-machines-within-openshift <br>
+
 Select  All projects to see the operators
 Before restoring make sure you set your project/namespace to vmexamples
 You will have to flip between projects/namespace <br>

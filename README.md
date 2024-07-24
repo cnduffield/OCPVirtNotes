@@ -54,7 +54,9 @@ Note there is a bug UI showing partially complete
 
 # Network Management
 Helpful blog
-https://www.redhat.com/en/blog/connecting-to-vms-in-red-hat-openshift-virtualization
+https://www.redhat.com/en/blog/connecting-to-vms-in-red-hat-openshift-virtualization <br>
+https://www.redhat.com/en/blog/using-the-multus-cni-in-openshift <br>
+https://docs.openshift.com/container-platform/4.16/networking/multiple_networks/understanding-multiple-networks.html <br>
 
 Your SSH credentials are located in the introduction chapter
 

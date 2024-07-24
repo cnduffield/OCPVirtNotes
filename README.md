@@ -1,5 +1,11 @@
 ![image](https://github.com/cnduffield/OCPVirtNotes/assets/16171877/17c1537c-9403-4828-b7da-fd1a257b10c3)
 
+# Helpful links
+https://kubevirt.io/user-guide/architecture/ <br>
+https://kubebyexample.com/ <br>
+https://docs.openshift.com/container-platform/4.16/virt/about_virt/virt-architecture.html
+
+
 # Virtual Machine Management
 The least used Node is chosen by default
 
